@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" type="text/css" href="inscriçao.css">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa</title>
+
+</head>
+
+<body>
+
+    <div>
+    <h1 id="titulo">Pesquisa de satisfação ao cliente</h1>
+<p id="subtitulo">Complete as informações</p>
+</div>
+
+<form> 
+    <fieldset class="grupo">
+        <div>
+            <label>Nome:</label>
+        <input type="text"    name="nome"   id="nome" required> <br><br>
+        </div>
+
+
+<div class="campo">
+    <ladel>Sobrenome:</ladel>
+    <input type="text"    name="Sobrenome"   id="Sobrenome" required>
+</div>
+ 
+</fieldset>
+
+    <div class="grupo">
+        <label>E-mail:</label>
+        <input type="email" name="email"  id="email" required>
+    </div>
+<br>
+    <div>
+        <label class="grupo">Sua experiência foi?</label><br>
+      <select id="Sua experiência foi?" >
+        <option selected disabled value="Selecione" ></option>
+        <option class="grupo">Pista </option>
+          <option class="grupo">Loja de conveniência</option>
+</select>
+    </div>
+<br>
+<div>
+    <ladel class="grupo">
+        Seu atendimento foi?
+    </ladel><br>
+
+    <label>
+        <input type="radio" name="posto" value="otimo" checked>Òtimo
+
+    </label>
+
+    <label>
+    <input type="radio" name="posto" value="Bom">Bom
+    </label>
+    
+    <label>
+            <input type="radio" name="posto" value="Médio">Médio
+        </label>
+        
+<label>
+<input type="radio" name="posto" value="Ruim">Ruim
+</label>
+</div>
+<br>
+
+<fieldset>
+<div>
+    <label class="grupo">
+        Foram oferecidos os seguintes procedimentos?
+    </label><br><br>
+    
+    
+    
+<input  type="checkbox" id="opiçao1" name="opiçao1" value="agua e òleo"> 
+    <label for="opiçao1">Verificação de água e óleo</label>
+    
+        <input type="checkbox" id="opiçao2" name="opiçao2" value="pneus">
+        <label for="opiçao2">Calibragem dos Pneus</label>
+    
+        <input type="checkbox" id="opiçao3" name="opiçao3" value="vidros">
+        <label for="opiçao3">Lavagem dos vidros</label>
+    
+        <input type="checkbox" id="opiçao4" name="opiçao4" value="nota">
+        <label for="opiçao4">Nota fiscal</label>
+    
+
+</div>
+
+</fieldset>
+
+<div>
+    <br>
+    <label class="grupo">
+        Reclamações e sujestões:
+    </label><br>
+<textarea class="grupo" row="10" style="width: 22em" id="sujestao" name="sujestao"></textarea>
+
+</div>
+<button class="botao" type="submit">Enviar</button>
+</form>
+
+</body>
+
+</html>

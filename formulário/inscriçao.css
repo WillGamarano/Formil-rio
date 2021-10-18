@@ -1,0 +1,60 @@
+#titulo{
+    color: mediumblue;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+
+#subtitulo{
+    color: mediumblue;
+    font-style: italic;
+    font-weight: 700;
+    
+}
+
+.grupo{
+    font-style: italic;
+    color:rgb(14, 14, 65);
+        font-weight: 700;
+        border-radius: 5px;
+}
+fieldset{
+    border: 0;
+}
+body{
+    font-style: italic;
+    color:rgb(14, 14, 65);
+    background-color:rgb(178, 186, 248);
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+input, select, textarea, button{
+    border-radius: 5px;
+}
+fieldset.grupo #campo{
+    font: left;
+    margin-right: 1em;
+}
+
+input[ type="text"], input[type="radio"], input[type="checkbox"], select , textaera,input[type="email"]
+{
+padding: 0,2em;
+border: 1px solid cornflowerblue;
+box-shadow: darkcyan;
+}
+
+.botao{
+    font-style: italic;
+    color:aliceblue;
+    background-color:blue;
+    margin-left: 36%;
+    margin-top: 2%;
+    justify-content: center;
+}
+.botao:hover
+{
+background:rgb(55, 55, 241);
+box-shadow: aqua;
+text-shadow: none;
+}
